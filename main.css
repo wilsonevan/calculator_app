@@ -1,0 +1,60 @@
+#output {
+  justify-content: right;
+}
+
+*, ::after, ::before {
+  box-sizing: none;
+}
+
+#content {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+}
+
+#calc {
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border-color: black; */
+  /* border-width: 20px; */
+}
+
+#output {
+  text-align: right;
+  border-radius: 15px;
+  width: 100%;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  font-size: 200%;
+}
+
+#calc button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 1.2em;
+  border-radius: 100%;
+  text-align: center;
+}
+
+#zero {
+  flex:2;
+  border-radius: 40% !important;
+}
+
+.btn-equal {
+  background-color: orange;
+}
+
+#zero {
+  flex:2;
+  border-radius: 40% !important;
+}
