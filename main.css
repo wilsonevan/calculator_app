@@ -55,14 +55,9 @@
 
 #zero {
   flex:2;
-  border-radius: 40% !important;
+  border-radius: 50% !important;
 }
 
 .btn-equal {
   background-color: orange;
-}
-
-#zero {
-  flex:2;
-  border-radius: 40% !important;
 }
